@@ -53,6 +53,29 @@ nav ul li {
     padding: 3px;
 
 }
+.content {
+    margin: 30px;
+}
+#slogan {
+    color: #e8c53b
+}
+#intro {
+    color: #dbb931;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #73f7f70b;
+    margin-left: 15%;
+}
+#bookNow {
+    background-color: #f6c70b;
+    color: whitesmoke;
+    padding: 4px;
+    margin-left: 50%;
+}
+#bookNow:hover {
+    background-color: #f6db0b;
+    cursor: pointer;
+}
 nav a {
     text-decoration: none;
     color: #fff;
