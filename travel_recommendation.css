@@ -59,7 +59,7 @@ nav ul li {
 .content {
     margin: 30px;
 }
-#slogan,#aboutHead,#teamHead {
+#slogan,#aboutHead,#teamHead,#contactHead {
     color: #e8c53b
 }
 #intro,#aboutUs,.teamMember {
@@ -84,7 +84,7 @@ nav a {
     color: #fff;
     font-weight: bold;
 }
-input[type="text"] {
+#searchInput {
     width: 350px;
     padding: 6px;
     padding-right: 30px;
@@ -101,4 +101,38 @@ body {
     background-size: cover; 
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
+}
+
+/* Contact Page */
+#formContainer {
+    max-width: 450px;
+    background-color: #73f7f732;
+    margin: 0 auto;
+}
+#contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: #73f7f732;
+    border: none;
+    color: #ffd97f
+}
+#contactForm button {
+    background-color: #2bb4b4;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+label {
+    color: #ffd97f;
 }
