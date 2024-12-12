@@ -1,0 +1,20 @@
+{
+    "team": [
+        {
+            "name": "Isabelle Dufour",
+            "role": "Founder & CEO"
+        },
+        {
+            "name": "Arthur Dubois",
+            "role": "Head of Travel Design"
+        },
+        {
+            "name": "Sofia Rossi",
+            "role": "Luxury Travel Specialist"
+        },
+        {
+            "name": "Kenji Tanaka",
+            "role": "Experience Curator"
+        }
+    ]
+}
