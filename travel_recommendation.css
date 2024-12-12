@@ -56,10 +56,10 @@ nav ul li {
 .content {
     margin: 30px;
 }
-#slogan {
+#slogan,#aboutHead,#teamHead {
     color: #e8c53b
 }
-#intro {
+#intro,#aboutUs {
     color: #dbb931;
     font-weight: bold;
     font-size: 1.5em;
