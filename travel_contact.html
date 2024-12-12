@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luxury Trails - Contact Us</title>
+        <link rel="stylesheet" href="./travel_recommendation.css">
+    </head>
+    <body>
+        <nav><a href="./travel_recommendation.html"><img src="./logo.png"></a>
+            <ul>
+                <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+                <li><a href="./travel_about.html" id="about">About Us </a></li>
+                <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+            </ul>
+        </nav>
+        <div id="contactHead" class="content">
+            <h1>CONTACT US</h1>
+        </div>
+        <div id="formContainer">
+            <form id="contactForm">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" onclick="thankyou()">Submit</button>
+            </form>
+        </div>
+        <script>
+            function thankyou() {
+                alert('Thank you for contacting us!')
+            }
+        </script>
+    </body>
+</html>
