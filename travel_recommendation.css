@@ -5,22 +5,25 @@
 }
 nav {
     background-color: #000;
-    padding: 5px 5px;
+    padding: 10px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 nav img {
+    display: inline;
     width: 100px;
     height: auto;
+    justify-content: space-between;
 }
 nav ul {
     list-style-type: none;
+    margin: auto;
     /*padding: 0; */
 }
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 .navInput {
     display: inline;
@@ -59,11 +62,11 @@ nav ul li {
 #slogan,#aboutHead,#teamHead {
     color: #e8c53b
 }
-#intro,#aboutUs {
+#intro,#aboutUs,.teamMember {
     color: #dbb931;
     font-weight: bold;
     font-size: 1.5em;
-    background-color: #73f7f70b;
+    background-color: #73f7f70c;
     margin-left: 15%;
 }
 #bookNow {
@@ -85,8 +88,13 @@ input[type="text"] {
     width: 350px;
     padding: 6px;
     padding-right: 30px;
+    margin-left: 20px;
     box-sizing: border-box;
     border-radius: 10px;
+}
+#ourTeam li {
+    display: inline-block;
+    margin-right: 10px;
 }
 body {
     background-image: url("./background.jpg");

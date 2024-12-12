@@ -4,7 +4,7 @@
         <title>Luxury Trails - About Us</title>
         <link rel="stylesheet" href="./travel_recommendation.css">
     </head>
-    <body>
+    <body onload="listTeam()">
         <nav><a href="./travel_recommendation.html"><img src="./logo.png"></a>
             <ul>
                 <li><a href="./travel_recommendation.html" id="home">Home </a></li>
@@ -22,7 +22,8 @@
         <div id="teamHead" class="content">
             <h2>MEET THE TEAM</h2>
         </div>
-        <div id="ourTeam" class="content" onload="listTeam()">
+        <div class="content">
+            <ul id="ourTeam"></ul>
         </div>
         <script src="./travel_recommendation.js"></script>
     </body>
