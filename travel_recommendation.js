@@ -33,7 +33,9 @@ function searchLocations() {
             data.countries.forEach(country => {
                 country.cities.forEach(city => {
                     if (city.description.toLowerCase().includes(input)) {
-                        console.log(city.description);
+                        const options = { timeZone: `${city.timezone}`, hour12: true, hour: 'numeric', minute: 'numeric', second: 'numeric' };
+                        const cityTime = new Date().toLocaleTimeString('en-US', options);
+                        console.log(`Current time in ${city.name}:`, cityTime);
                         rightDiv.innerHTML += `<div class="searchContent"><img src=${city.imageUrl}><h3>${city.name}</h3><p>${city.description}</p></div>`;
                     } else if(city.name.toLowerCase().includes(input)) {
                         console.log(city.name);
