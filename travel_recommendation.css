@@ -67,7 +67,9 @@ nav ul li {
     color: #dbb931;
     font-weight: bolder;
 }
-
+.searchContent p {
+    padding: 10px;
+}
 .searchContent img {
     width: 100%;
 }

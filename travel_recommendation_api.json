@@ -3,6 +3,9 @@
       {
         "id": 1,
         "name": "Australia",
+        "type": "country",
+        "imageUrl": "./images/australia.jpg",
+        "description": "Australia, the land of sunshine and adventure, is a captivating country with something to offer everyone. From its iconic natural wonders to its vibrant citites and unique wildlife, Austalia is a must-visit destination for any traveler.",
         "cities": [
           {
             "name": "Sydney, Australia",
@@ -12,6 +15,7 @@
           },
           {
             "name": "Melbourne, Australia",
+            "type": "country",
             "imageUrl": "./images/melbourne_australia.jpg",
             "description": "A cultural hub famous for its art, food, and diverse neighborhoods.",
             "timezone": "Australia/Melbourne"
@@ -21,6 +25,9 @@
       {
         "id": 2,
         "name": "Japan",
+        "type": "country",
+        "imageUrl": "./images/japan.jpg",
+        "description": "Discover the enchanting blend of ancient traditions and modern marvels in Japan. Immerse yourself in the serene beauty of ancient temples and lush bamboo forests, then marvel at the neon-lit skyscrapers and cutting-edge technology of its bustling cities.",
         "cities": [
           {
             "name": "Tokyo, Japan",
@@ -39,6 +46,9 @@
       {
         "id": 3,
         "name": "Brazil",
+        "type": "country",
+        "imageUrl": "./images/brazil.jpg",
+        "description": "Brazil is a vast and vibrant country that occupies almost half of the South American continent. It's known for it's stunning natural beauty, from the Amazon rainforest to the Iguazu Falls, as well as its lively culture, which is expressed through music, dance, and festivals like Carnival. Whether you're looking for adventure, relaxation, or cultural immersion, Brazil has something to offer everyone.",
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
@@ -59,6 +69,7 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
+        "type": "temple",
         "imageUrl": "./images/angkor_wat_cambodia.png",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world.",
         "timezone": "Asia/Phnom_Penh"
@@ -66,6 +77,7 @@
       {
         "id": 2,
         "name": "Taj Mahal, India",
+        "type": "temple",
         "imageUrl": "./images/taj_mahal_india.jpg",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture.",
         "timezone": "Asia/Kolkata"
@@ -75,6 +87,7 @@
       {
         "id": 1,
         "name": "Bora Bora, French Polynesia",
+        "type": "beach",
         "imageUrl": "./images/bora_bora.jpg",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows.",
         "timezone": "Pacific/Tahiti"
@@ -82,6 +95,7 @@
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
+        "type": "beach",
         "imageUrl": "./images/copacabana.jpg",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views.",
         "timezone": "America/Sao_Paulo"
