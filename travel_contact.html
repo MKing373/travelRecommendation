@@ -34,7 +34,15 @@
         </div>
         <script>
             function thankyou() {
-                alert('Thank you for contacting us!')
+                const inputName = document.getElementById('name').value;
+                const inputEmail = document.getElementById('email').value;
+                const inputMessage = document.getElementById('message').value;
+                
+                if (inputName && inputEmail && inputMessage) {
+                    alert('Thank you for contacting us!');
+                } else {
+                    alert('Please enter the required info.');
+                }    
             }
         </script>
     </body>
